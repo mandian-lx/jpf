@@ -35,8 +35,7 @@ Group:		Documentation
 %description javadoc
 API documentation for %{name}.
 
-%files javadoc
-%{_javadocdir}/%{name}
+%files javadoc -f .mfiles-javadoc
 %doc license.txt
 
 #----------------------------------------------------------------------------
